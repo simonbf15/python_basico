@@ -1,4 +1,4 @@
-#condiciones y bucles
+#condiciones
 
 print('primero el if')
 num1 = 10
