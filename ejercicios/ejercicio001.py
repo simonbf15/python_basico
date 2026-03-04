@@ -2,18 +2,17 @@
 #los guarde en una lista y muestre el mayor sin usar max()
 
 def max_de_lista(lista1):
-    max=lista1[0]
+    maximo=lista1[0]
     for number in lista1:
-     if number>max:
-        max = number   
+     if number>maximo:
+        maximo = number   
 
-    return max
+    return maximo
 
 lista =[]
-i=0
 for num in range(3):
-    lista.append(int(input('ingrese un numero')))
+    lista.append(int(input('ingrese un numero ')))
 
-print(lista)
+print("Lista:", lista)
 print('el maximo de la lista es: ',max_de_lista(lista))
 
