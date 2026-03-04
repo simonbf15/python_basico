@@ -17,11 +17,11 @@ class persona:
 
 
 
-persona1 = persona('simon','barrale',1.71, 22, 63)
-persona1.imprimir_datos()
-persona1.comer()
+#persona1 = persona('simon','barrale',1.71, 22, 63)
+#persona1.imprimir_datos()
+#persona1.comer()
 
 #creo otra instancia de la clase persona
-persona2 = persona('john', 'doe', 1.51, 25, 75)
-persona2.imprimir_datos()
-persona2.comer()
+#persona2 = persona('john', 'doe', 1.51, 25, 75)
+#persona2.imprimir_datos()
+#persona2.comer()
